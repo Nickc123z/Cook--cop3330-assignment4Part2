@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface main
+
+mark <|-- main
+displayall <|-- main
+displayincomplete <|-- main
+
+class main{
+mark button
+display all button
+display incomplete button
+}
+
+class mark{
+mark button has been clicked
+mark a to-do on the list
+}
+
+class displayall{
+display all button has been clicked
+display all to-do lists
+}
+
+class displayincomplete{
+display incomplete button has been clicked
+display all incomplete to-do lists
+}
+
+@enduml

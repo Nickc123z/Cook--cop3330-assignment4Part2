@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface main
+
+Add <|-- main
+removed <|-- main
+editdescription <|-- main
+
+class main{
+has edit, remove, add buttons
+}
+
+class removed{
+remove button has been clicked
+remove a to-do from to-do list
+}
+
+class Add{
+add button has been clicked
+add a to-do to to-do list
+}
+
+class editdescription{
+edit button has been clicked
+edit a description of a to-do on the to-do list
+}
+
+@enduml

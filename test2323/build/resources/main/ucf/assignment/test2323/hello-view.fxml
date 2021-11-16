@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ucf.assignment.test2323.HelloController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <ToolBar prefHeight="40.0" prefWidth="200.0">
+            <items>
+               <Button fx:id="add" alignment="TOP_CENTER" contentDisplay="RIGHT" lineSpacing="5.0" mnemonicParsing="false" onAction="#switchScreen" text="Add" />
+               <Button fx:id="remove" alignment="TOP_CENTER" contentDisplay="RIGHT" lineSpacing="5.0" mnemonicParsing="false" onAction="#switchScreen3" text="Remove" />
+               <Button fx:id="edit" alignment="TOP_CENTER" contentDisplay="RIGHT" lineSpacing="5.0" mnemonicParsing="false" onAction="#switchScreen5" text="Edit" />
+               <Button fx:id="more" alignment="TOP_CENTER" contentDisplay="RIGHT" lineSpacing="5.0" mnemonicParsing="false" onAction="#morePressed" text="More" />
+            </items>
+</ToolBar>
+   <TextField fx:id="text" onAction="#text11" prefHeight="25.0" prefWidth="117.0" text="Enter Value" />
+   <Button fx:id="enter" mnemonicParsing="false" onAction="#enterPressed" text="Enter" />
+</VBox>
